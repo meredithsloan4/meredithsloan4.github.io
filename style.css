@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|PT+Sans');
+
+nav {
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  border-top: 2px solid #8c8b8b;
+  border-bottom: 2px solid #8c8b8b;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 4px 8px;
+  color: rgb(66, 167, 244);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(18, 85, 144);
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(18, 85, 144);
+  font-family: 'Arbutus Slab', serif;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(18, 85, 144);
+  font-family: 'Arbutus Slab', serif;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+img {
+  position: relative;
+  float: left;
+  border: 10px solid rgb(18, 85, 144);
+}
+
+address {
+  position: relative;
+  padding-left: 10px;
+}
+
+address p {
+  margin: 5px;
+}
+
+#email, #linkedin {
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 15px;
+}
+
+#email, #linkedin:visited {
+  color: rgb(66, 167, 244);
+}
+
+li {
+  font-family: 'PT Sans', sans-serif;
+  margin-left: 10px;
+}
+
+li a:hover {
+  color: rgb(220, 92, 47);
+}
+
+li a:visited {
+  color: rgb(66, 167, 244);
+}
+
+
+#education {
+  clear: left;
+  padding-top: 10px;
+}
+
+#contact {
+  margin-left: 250px;
+}

@@ -2,27 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
+    <link href="style.css" rel="stylesheet"/>
     <title>Meredith Grace Sloan's Résumé</title>
   </head>
 
 <body>
+  <div id="container">
   <header>
     <h1>Meredith Grace Sloan</h1>
+
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#computer">Computer Skills</a>
+    </nav>
+
     <img src="sloan_meredith.jpg" alt="Meredith Grace Sloan"/>
-
-  <address>
-    <p>800 Benevento Ave.</p>
-    <p>Coral Gables, FL 33146</p>
-    <p>(617)990-7488</p>
-  </address>
-
-    <p><a href="mailto:meredithsloan4@yahoo.com">E-mail me!</a></p>
-    <a href="https://www.linkedin.com/in/meredithgracesloan">Connect with me on LinkedIn!</a>
-
   </header>
 
 <main>
-  <section>
+
+  <section id="contact">
+    <h2>CONTACT ME</h2>
+    <address>
+      <p>800 Benevento Ave.</p>
+      <p>Coral Gables, FL 33146</p>
+      <p>(617)990-7488</p>
+    </address>
+      <p id="email"><a href="mailto:meredithsloan4@yahoo.com">E-mail</a></p>
+      <a id="linkedin" href="https://www.linkedin.com/in/meredithgracesloan">LinkedIn</a>
+  </section>
+
+  <section id="education">
     <h2>EDUCATION</h2>
     <ul>
       <li><strong>University of Miami (GPA: 3.871): Coral Gables, FL</strong>
@@ -41,7 +54,7 @@
     </ul>
 
   </section>
-  <section>
+  <section id="experience">
     <h2>WORK EXPERIENCE</h2>
     <ul>
       <li><strong><a href="http://www.needhamchannel.org">The Needham Channel</a>: Needham, MA</strong>
@@ -89,7 +102,7 @@
        <ul>
          <li><i>Retail Sales Associate (June 2015 - July 2015)</i>
            <ul>
-             <li>Responsible for assisting the management team in driving sales through exceptional customer service. Ensured the cus- tomer experience, supported the brand promise "Every Day Should Feel This Good" and made service a top priority</li>
+             <li>Responsible for assisting the management team in driving sales through exceptional customer service. Ensured the customer experience, supported the brand promise "Every Day Should Feel This Good" and made service a top priority</li>
            </ul>
         </li>
       </ul>
@@ -111,7 +124,7 @@
 
   </section>
 
- <section>
+ <section id="leadership">
    <h2>LEADERSHIP</h2>
 
    <ul>
@@ -148,23 +161,20 @@
    </ul>
 </section>
 
-<section>
+<section id="achievements">
   <h2>ACHIEVEMENTS</h2>
 
-  <ul>
-    <li><strong>University of Miami</strong>
       <ul>
+        <li><i>Omicron Delta Kappa Leadership Honor Society (November 2016)</i></li>
         <li><i>Provost’s Honor Roll (December 2014, May 2015, December 2015, May 2016)</i></li>
         <li><i>Dean's List (December 2014, May 2015, December 2015, May 2016)</i></li>
         <li><i>The National Society of Collegiate Scholars (February 2016)</i></li>
         <li><i>National Broadcasting Honor Society: AERho (October 2015)</i></li>
         <li><i>Golden Key International Honour Society (September 2015)</i></li>
-      </ul>
-    </li>
   </ul>
 </section>
 
-<section>
+<section id="computer">
   <h2>COMPUTER SKILLS</h2>
 
   <ul>
@@ -177,8 +187,9 @@
     <li>Microsoft Word</li>
     <li>Microsoft Powerpoint</li>
   </ul>
+</section>
 
-  </section>
 </main>
+</div>
 </body>
 </html>
