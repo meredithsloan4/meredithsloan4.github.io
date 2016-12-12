@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|PT+Sans');
+
+nav {
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  border-top: 3px solid #8c8b8b;
+  border-bottom: 3px solid #8c8b8b;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 4px 8px;
+  color: rgb(15,87, 76);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(106, 160, 127);
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(106, 160, 127);
+  font-family: 'Arbutus Slab', serif;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(106, 160, 127);
+  font-family: 'Arbutus Slab', serif;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+img {
+  position: relative;
+  border: 10px solid rgb(15,87, 76);
+  max-width: 960px;
+  min-width: 360px;
+}
+
+#bio {
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 15px;
+}
+
+#bio:visited {
+  color: #8c8b8b;
+}
+
+li {
+  font-family: 'PT Sans', sans-serif;
+  margin-left: 10px;
+}
+
+li a {
+  color: #8c8b8b;
+}
+
+
+li a:visited {
+  color: rgb(15,87, 76);
+}
+
+#bio {
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#education {
+  clear: left;
+  padding-top: 0px;
+}
+
+#anchor {
+  font-size: 10px;
+  font-family: 'PT Sans', sans-serif;
+  max-width: 640px;
+  color: black;
+  display: block;
+  margin: 0 auto;
+}
+
+#anchor a {
+  color: rgb(106, 160, 127);
+}
+
+ #anchor a:visited {
+   color: rgb(15,87, 76);
+ }
+
+#samples {
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  max-width: 640px;
+  display: block;
+  margin: 0 auto;
+}
+
+#contact a:visited {
+  color: rgb(15,87, 76);
+}
+
+#contact a {
+  color: rgb(106, 160, 127);
+}
+
+#caption1 {
+  font-size: 15px;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#caption2 {
+  font-size: 15px;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#print {
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#print a{
+  color: rgb(106, 160, 127);
+}
+
+#print a:visited {
+    color: rgb(15,87, 76);
+}
+
+@media print {
+
+nav a {
+  display: none;
+}
+
+nav {
+  display: none;
+}
+
+#print {
+  display: none;
+  margin-top: -10px;
+}
+}
