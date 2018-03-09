@@ -97,11 +97,11 @@ main {
   margin-right: 20px;
 }
 
-/* #picture img { */
-  /* border: 1px solid #bbb; */
-  /* transform: rotate(2deg); */
-  /* box-shadow: 2px 2px 2px #ddd; */
-  /* margin-right: 20px; */
+#picture img {
+  border: 1px solid #bbb;
+  transform: rotate(2deg);
+  box-shadow: 2px 2px 2px #ddd;
+  margin-right: 20px;
 }
 #resume main {
   grid-template-columns: repeat(2, 1fr);
